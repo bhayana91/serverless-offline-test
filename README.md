@@ -28,7 +28,7 @@ After triggering serverless offline start you will se that a local instance of d
 
 http://localhost:8000/shell
 
-![alt text](./images/offline_start.png "Dynamo Local Shell")
+![alt text](./images/offline_start.PNG "Dynamo Local Shell")
 
 Now, to access the dynamodb database we need to have lambda handlers, our handler.js uses aws-sdk to make connections to DB to get and post data into DB.
 
@@ -46,10 +46,10 @@ curl -H "Content-Type: application/json" -X POST -d '{"text":"blablabalbla"}' ht
 
 curl -H "Content-Type: application/json" -X GET  http://localhost:3000/getfromdynamo
 
-![alt text](./images/API_Calls.png "Dynamo Local Shell")
+![alt text](./images/API_Calls.PNG "Dynamo Local Shell")
 
 And, another way to scan the table is using Dynamodb local shell.
 
 You can use the test-scan.js and update the table name and upload in local shell to execute and see the results.
 
-![alt text](./images/local_dynamo.png "Dynamo Local Shell")
+![alt text](./images/local_dynamo.PNG "Dynamo Local Shell")
