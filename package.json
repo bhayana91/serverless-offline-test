@@ -1,0 +1,13 @@
+{
+  "name": "new-serverless",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {
+    "serverless-offline": "^5.12.1"
+  },
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.39",
+    "aws-sdk": "^2.140.0",
+    "uuid": "^3.1.0"
+  }
+}
